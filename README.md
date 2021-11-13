@@ -23,6 +23,5 @@ cd GitCracken/GitCracken/
 yarn install
 yarn build
 sudo "$(nvm which node)" dist/bin/gitcracken.js patcher
-echo "export PATH="$PATH:$(yarn global bin)""
-echo 'export PATH="$PATH:$(yarn global bin)"\n' >> ~/.zshrc
+echo '\nexport PATH="$PATH:$(yarn global bin)"\n' >> ~/.zshrc
 ```
