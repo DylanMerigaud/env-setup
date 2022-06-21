@@ -17,6 +17,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 nvm install-latest-npm
 npm install -g yarn
 wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
+rm -rf /usr/share/gitkraken/
 sudo apt-get install ./gitkraken-amd64.deb
 git clone https://github.com/5cr1pt/GitCracken.git #(https://github.com/5cr1pt/GitCracken/pull/79)
 cd GitCracken/GitCracken/
