@@ -19,7 +19,7 @@ npm install -g yarn
 wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
 rm -rf /usr/share/gitkraken/
 sudo apt-get install ./gitkraken-amd64.deb
-git clone https://github.com/5cr1pt/GitCracken.git #(https://github.com/5cr1pt/GitCracken/pull/79)
+git clone https://github.com/happyhope/GitCracken.git
 cd GitCracken/GitCracken/
 yarn install
 yarn build
