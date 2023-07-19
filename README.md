@@ -13,13 +13,16 @@ mkdir Downloads
 cd ~/Downloads
 sudo apt update
 sudo apt upgrade
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
-nvm install-latest-npm
+sudo apt install zsh
+chsh -s $(which zsh)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+nvm install node
 npm install -g yarn
 wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
 rm -rf /usr/share/gitkraken/
 sudo apt-get install ./gitkraken-amd64.deb
-git clone https://github.com/happyhope/GitCracken.git
+download from https://t.me/gitkrakencrackchat
 cd GitCracken/GitCracken/
 yarn install
 yarn build
