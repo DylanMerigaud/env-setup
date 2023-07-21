@@ -9,8 +9,7 @@ wsl --install
 
 Ubuntu WSL2
 ```
-mkdir Downloads
-cd ~/Downloads
+cd /tmp
 sudo apt update
 sudo apt upgrade
 sudo apt install zsh
@@ -23,7 +22,7 @@ wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
 rm -rf /usr/share/gitkraken/
 sudo apt-get install ./gitkraken-amd64.deb
 download from https://t.me/gitkrakencrackchat
-cd GitCracken/GitCracken/
+cd GitCracken/
 yarn install
 yarn build
 sudo "$(nvm which node)" dist/bin/gitcracken.js patcher
